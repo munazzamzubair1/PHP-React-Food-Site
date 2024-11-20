@@ -1,0 +1,14 @@
+.custom-select-wrapper {
+  position: relative;
+}
+.custom-select-wrapper .form-control {
+  padding-right: 2.5rem; /* Adjust for icon space */
+}
+.custom-select-wrapper .icon {
+  position: absolute;
+  right: 10px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Prevent clicking the icon */
+  color: #6c757d; /* Icon color */
+}

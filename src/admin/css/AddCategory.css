@@ -1,0 +1,28 @@
+/* Custom styling for the form input */
+.custom-input {
+  border: 2px solid #6c757d;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Custom styling for the submit button */
+.custom-submit-btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.custom-submit-btn:hover {
+  background-color: #0056b3;
+}

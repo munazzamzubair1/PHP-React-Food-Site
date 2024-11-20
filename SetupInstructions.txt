@@ -1,0 +1,46 @@
+# **Login System Setup Guide**  
+
+## **Login Credentials**  
+
+### **Admin Access**  
+- **Username:** `munazzam`  
+- **Password:** `1qwertyi@_`  
+
+### **User Access**  
+- **Username:** `iftikhar`  
+- **Password:** `1qwertyi@_`  
+
+---
+
+## **Step-by-Step Setup Instructions**  
+
+### 1. **Install Dependencies**  
+   - Clone or download the project repository.  
+   - Open a terminal in the project folder and run the following command to install all required dependencies:  
+     ```bash
+     npm install
+     ```  
+
+### 2. **Database Configuration**  
+   - Import the `food-site.sql` file into your database system to set up the database schema and data.  
+
+### 3. **Backend Server Setup**  
+   - Start your PHP backend server to ensure the application can connect to the database and APIs.  
+
+### 4. **Environment Configuration**  
+   - Open the `.env` file in the project directory.  
+   - Locate the `API_BASE_URL` entry and replace the value (starting with `=`) with the base path of your project.  
+
+### 5. **Launch the React Frontend**  
+   - Navigate to the frontend project directory and execute the following command to start the React development server:  
+     ```bash
+     npm start
+     ```  
+   - Once the server is running, open your browser and go to:  
+     [http://localhost:3000](http://localhost:3000)  
+
+---
+
+## **You're All Set!** 🎉  
+Your application is now ready for use. If you need assistance, feel free to reach out via email at:  
+**[webmunazzam@gmail.com](mailto:webmunazzam@gmail.com)**  
